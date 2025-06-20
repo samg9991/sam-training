@@ -1,0 +1,13 @@
+customer_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: RAXXHKB-RZ34633
+      user: SAMG
+      password: Teranet123frontstreetwest
+      role: ACCOUNTADMIN
+      database: Training
+      warehouse: compute_wh
+      schema: bronze
+      authenticator: snowflake
