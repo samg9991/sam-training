@@ -7,7 +7,7 @@ customer_pipeline:
       user: SAMG
       password: Teranet123frontstreetwest
       role: ACCOUNTADMIN
-      database: Training
-      warehouse: compute_wh
-      schema: bronze
+      database: TRAINING
+      warehouse: COMPUTE_WH
+      schema: BRONZE
       authenticator: snowflake
