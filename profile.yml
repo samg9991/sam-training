@@ -1,5 +1,5 @@
 customer_pipeline:
-  target: dev
+  target : dev
   outputs:
     dev:
       type: snowflake
