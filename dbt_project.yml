@@ -4,6 +4,7 @@ profile: 'customer_pipeline'
 model-paths: ["models"]
 seed-paths: ["seeds"]
 models:
+  Analytics:
     bronze:
       materialized: view
       +schema: PUBLIC
