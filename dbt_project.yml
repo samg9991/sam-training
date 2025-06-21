@@ -1,6 +1,6 @@
 name: customer_pipeline
 version: '2.0'
-profile: customer_pipeline
+profile: default
 model-paths: ["models"]
 seed-paths: ["seeds"]
 models:
