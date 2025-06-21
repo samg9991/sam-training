@@ -4,7 +4,7 @@ profile: 'customer_pipeline'
 model-paths: ["models"]
 seed-paths: ["seeds"]
 models:
-  sam-training:
+  "sam-training":
     bronze:
       materialized: view
       +schema: PUBLIC
