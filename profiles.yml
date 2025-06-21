@@ -5,7 +5,7 @@ customer_pipeline:
       type: snowflake
       account: RAXXHKB-RZ34633
       user: SAMG
-      password: Azuretraining999
+      password: azureTraining777
       role: ACCOUNTADMIN
       database: TRAINING
       warehouse: COMPUTE_WH
