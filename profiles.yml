@@ -5,9 +5,10 @@ customer_pipeline:
       type: snowflake
       account: RAXXHKB-RZ34633
       user: SAMG
-      password: Azuretraining456
+      password: Azuretraining999
       role: ACCOUNTADMIN
       database: TRAINING
       warehouse: COMPUTE_WH
       schema: BRONZE
       authenticator: snowflake
+      threads: 1
