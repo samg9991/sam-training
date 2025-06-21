@@ -1,16 +1,13 @@
-#projectname
 name: customer_pipeline
 version: '2.0'
-profile: default
+profile: customer_pipeline
 model-paths: ["models"]
 seed-paths: ["seeds"]
 models:
-  customer_pipeline:
-    bronze:
-      materialized: view
-    silver:
-      materialized: view
-    gold:
-      materialized: table
-
+  bronze:
+    materialized: view
+  silver:
+    materialized: view
+  gold:
+    materialized: table
 
