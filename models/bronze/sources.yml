@@ -6,6 +6,8 @@ sources:
     schema: BRONZE
     quoting:
       identifier: true
-    tables: 
+      database: true
+      schema: true
+    tables:
       - name: RAW_CUSTOMERS
         description: "this table has customers which is getting from salesforce"
