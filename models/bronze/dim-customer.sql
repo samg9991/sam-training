@@ -1,3 +1,3 @@
 select
-* 
-from {{ source('raw','RAW_CUSTOMERS') }}
+*
+from {{source('raw','RAW_CUSTOMERS')}}
