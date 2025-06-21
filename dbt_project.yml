@@ -6,6 +6,7 @@ seed-paths: ["seeds"]
 models:
     bronze:
       materialized: view
+      +schema: PUBLIC
     silver:
       materialized: view
     gold:
