@@ -5,7 +5,11 @@ customer_pipeline:
       type: snowflake
       account: RAXXHKB-RZ34633
       user: SAMG
+<<<<<<< HEAD
       password: learningAzure2024
+=======
+      password: azureTraining999
+>>>>>>> 1a51e3eb923a6c9246a955be41fcc1363329eafe
       role: ACCOUNTADMIN
       database: TRAINING
       warehouse: COMPUTE_WH
